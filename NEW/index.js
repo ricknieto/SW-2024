@@ -11,7 +11,7 @@ let Articulos = require('./Rutas/Articulo');
 
 let Usuarios = require('./Rutas/Usuario')
 
-let puerto = 3008;
+let puerto = 3006;
 
 mongoose.Promise = global.Promise;
 mongoose.connect("mongodb://localhost:27017/servicios-web-proyecto-JoseLuis")
