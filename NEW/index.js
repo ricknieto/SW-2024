@@ -31,6 +31,6 @@ mongoose.connect("mongodb://localhost:27017/servicios-web-proyecto-JoseLuis")
             }
     });
 
-app.use('/joseluis/proyecto/usuarios', Usuarios);
-app.use('/joseluis/proyecto/articulos', Articulos);
+app.use('/ricardo/proyecto/usuarios', Usuarios);
+app.use('/ricardo/proyecto/articulos', Articulos);
 
